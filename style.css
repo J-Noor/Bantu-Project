@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav starts */
+
+nav{
+    padding-bottom: 20px;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.bantu{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.fa-hand{
+    color: rgb(227, 207, 129);
+}
+
+.warga{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.default-color{
+    color: blue;
+}
+
+.uni-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 16px;
+    font-weight: bolder;
+    font-size: .8rem;
+}
+
+/* nav ends */
+
+/* section 1 starts */
+.sec-1{
+    background-color: rgb(235, 242, 249);
+    width: 100%;
+    /* height: 80vh; */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sec-1 h1{
+    font-size: 3rem;
+}
+
+.section-writing{
+    padding-top: 50px;
+    padding-left: 3rem;
+    width: 50%;
+}
+
+.section-writing p{
+    padding: 15px 0;
+}
+
+.section-writing input:focus{
+    border-color: blue;
+}
+
+.section-writing input{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+}
+
+.section-writing input:focus{
+    outline-color: blue;
+}
+
+.section-imgs{
+    width: 50%;
+}
+
+.fa-arrow-right-long{
+    background-color: blue;
+    font-size: 1rem;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 250px;
+    bottom: 310px;
+}
+
+.wel-img{
+    /* height: 565px; */
+    width: 50%;
+    
+}
+
+.vit-img{
+    position: absolute;
+    top: 0;
+    right: 230px;
+    /* height: 720px; */
+    width: 50%;
+}
+
+.section-imgs{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+/* section 1 ends */
+
+/* section 2 starts */
+
+.sec-2{
+    padding-top: 50px;
+    background-color: rgb(235, 242, 249);
+    text-align: center;
+
+}
+
+.sec2-writing{
+    text-align: center;
+}
+
+.sec2-writing h2{
+    font-size: 2.5rem;
+
+}
+
+.sec2-writing p{
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+.bantu-cards{
+    /* width: 300vw; */
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding-top: 30px;
+    justify-content: center;
+    grid-gap: 20px 25px;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bantu-cards h3{
+    margin-top: 10px;
+}
+
+.bantu-cards p{
+    margin-top: 20px;
+}
+
+.btn-center{
+    text-align: center;
+}
+/* section 2 ends */
+
+/* section 3 starts */
+
+.sec-3{
+    display: flex;
+    padding: 30px;
+}
+
+.mask-img{
+    width: 700px;
+}
+
+.sec3-writing{
+    /* width: 600px; */
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.def-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sec3-writing h2{
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.sec3-writing p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.small-images{
+    margin-top: 20px;
+}
+/* section 3 ends */
+
+/* sec 4 starts */
+.sec-4{
+    padding: 15px 50px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.sec-4 h2{
+    margin: 30px 0;
+    font-size: 3rem;
+}
+
+.covid-info{
+    display: flex;
+    padding: .2rem 0;
+    
+}
+
+.covid-info p{
+    margin-bottom: 10px;
+}
+
+.covid-img{
+    height: 1.7rem;
+    margin-right: 1rem;
+}
+
+.covid-details p{
+    margin-top: 1rem;
+}
+
+.button{
+    margin: 1rem 2.3rem;
+}
+
+article{
+    display: flex;
+    padding-left: 3rem;
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    
+}
+
+.second-img{
+    position: absolute;
+    right:290px;
+    top: 70px;
+    
+}
+
+.top-img{
+    z-index: 1;
+}
+
+
+/* sec 4 ends */
+
+/* contact starts */
+
+.contact-sec{
+   margin: 0 auto;
+   width: 60vw;
+   height: 60vh;
+   box-shadow: 5px 5px 5px 5px lightgrey;
+   padding: 3rem;
+}
+
+.contact-body{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+fieldset{
+    width: 20rem;
+    height: 3rem;
+    margin: 1rem 0;
+    border: 1px solid black;
+    
+}
+
+legend{
+    margin-left: 10px;
+}
+
+#input-tag{
+    border: none;
+    outline: none;
+    
+}
+
+::placeholder{
+    padding: 1rem;
+}
+
+
+.input-properties{
+    margin: 1rem 0;
+    width: 20rem;
+    height: 3rem;
+}
+
+#textarea{
+    resize: none;
+}
+
+.contact-style{
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.leave-msg{
+    font-size: 1rem;
+}
+
+.det{
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.det-img{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+#loc-img{
+    margin-right: 1rem;
+}
+
+.det-details{
+    margin: 8px 5px;
+}
+
+.icons{
+    margin: 1rem 0;
+
+}
+
+.icon-img{
+    margin-right: .5rem;
+}
+
+#long-btn{
+    width: 15rem;
+    height: 1.5rem;
+    text-align: center;
+    padding: 2px;
+}
+
+
+/* contact ends */
+
+/* footer starts */
+footer{
+    background-color: rgba(3, 76, 247, 0.637);
+    padding: 3rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-desc{
+    margin: 2rem 0;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list ul{
+    list-style-type: none;
+    margin: 0 3rem;
+}
+
+.footer-list li{
+    margin: 1rem 0;
+}
+
+.footer-icons, .copyright{
+  margin-top: 4rem;
+}
+
+.copyright{
+    margin-left: 3rem;
+}
+
+/* footer ends */
